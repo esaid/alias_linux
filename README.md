@@ -9,6 +9,6 @@ alias desktop=xfce4-session
 4)  check your alias  : in your terminal  :
 $ alias
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
-<e>alias desktop='xfce4-session'</e>
+<strong>alias desktop='xfce4-session'</strong>
 
 
